@@ -15,6 +15,10 @@ body {
   width: 1224px;
   margin: 0 auto;
 }
+.relative {
+  position: relative;
+  z-index: 100;
+}
 .navigation__wrapper {
   display: flex;
   height: 128px;
@@ -50,8 +54,8 @@ header {
 }
 .site-desc {
   position: absolute;
-  right: -50px;
-  top: 58px;
+  right: -40px;
+  bottom: 650px;
 }
 @media (max-width: 1400px) {
   .site-desc {
@@ -77,6 +81,12 @@ header {
 }
 .slide-wrapper {
   position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 95px;
+}
+#headerSlider.owl-carousel .owl-stage-outer {
+  overflow: visible;
 }
 .slide-item {
   display: flex;
@@ -154,8 +164,8 @@ header {
 .header-social-wrapper {
   position: absolute;
   width: 20px;
-  right: -45px;
-  bottom: 0;
+  right: -55px;
+  bottom: -80px;
 }
 @media (max-width: 1400px) {
   .header-social-wrapper {
@@ -171,6 +181,7 @@ header {
   flex-direction: column;
   width: 20px;
   align-items: center;
+  margin-bottom: 80px;
 }
 .social__item {
   margin: 0 15px;
