@@ -1,4 +1,4 @@
-$(document).ready(function () {
+jquery(document).ready(function ($) {
   
   const shopSlider = $('#shopSlider');
 

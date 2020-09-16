@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+jquery(document).ready(function ($) {
   var headerSlider = $(".owl-carousel");
   headerSlider.on('initialized.owl.carousel', function (event) {
     $('.slide-controls__number-active').text(event.item.index + 1);

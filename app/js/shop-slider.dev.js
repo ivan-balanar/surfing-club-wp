@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+jquery(document).ready(function ($) {
   var shopSlider = $('#shopSlider');
   shopSlider.owlCarousel({
     dots: false,
